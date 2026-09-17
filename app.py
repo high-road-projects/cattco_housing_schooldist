@@ -347,7 +347,7 @@ st.sidebar.caption(
 # 7. Compute + render
 # -----------------------------------------------------------------------------
 
-st.title("Cattaraugus County Sales Explorer — by School District (Class 210 / 215)")
+st.title("Cattaraugus County Single-Family Arm's Length Sales")
 
 fs = get_filtered_sales(sales, outliers, year2026)
 fs_price = fs[fs["sale_price_2026usd"].notna()]
