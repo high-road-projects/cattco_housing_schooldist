@@ -34,7 +34,7 @@ import streamlit as st
 # Page setup
 # -----------------------------------------------------------------------------
 
-st.set_page_config(page_title="Cattaraugus County Sales Explorer — by School District", layout="wide")
+st.set_page_config(page_title="Cattaraugus County Single-Family Arm's Length Sales", layout="wide")
 
 DATA_PATH = os.environ.get("CATTCO_DATA_PATH", "cattco_sales_arms_length_Y_with_2026usd.csv")
 ALL_LABEL = "All School Districts (County-wide)"
