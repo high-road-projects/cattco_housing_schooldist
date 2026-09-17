@@ -331,7 +331,7 @@ st.sidebar.caption(
 )
 st.sidebar.markdown("---")
 st.sidebar.caption(
-    "Sample: arms-length sales from Jan 1, 2013 onward, property class 210 or 215, "
+    "Sample: Includes all single-family arms-length sales from Jan 1, 2013 onward, "
     "grouped by school district (school_name) rather than municipality -- a school "
     "district can span more than one municipality. Prices are inflation-adjusted to "
     "2026 dollars (CPI). By default, records flagged outlier_flag = True are excluded. "
